@@ -1,0 +1,35 @@
+.navbarContainer {
+	
+}
+
+.slash {
+	color: #a0a0a0;
+	font-size: 2.25rem;
+	/* font-size: 3.5vw; */
+}
+
+.currentPage {
+	font-size: 2.7rem;
+	/* font-size: 3.5vw; */
+	line-height: 1;
+	color: #a0a0a0;
+	/* Bright things in dark environments usually cast that light, giving off a glow */
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+
+nav {
+	align-items: center;
+	display: flex;
+	position: relative;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 24vh;
+	top: 0px;
+  }
+  
+
