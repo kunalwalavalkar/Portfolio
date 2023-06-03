@@ -1,19 +1,26 @@
 import Button from "./Button"
 import "../script.js"
 import "./Navbar.css"
+import './Button.css'
 
-const Navbar = ({button, buttonClassName, buttonHref, slash, page, pageClassName}) => {
+const Navbar = ({ button, buttonClassName, buttonHref, slash, page, pageClassName }) => {
   return (
-    <nav>
-        <h2><Button button={button} buttonClassName={buttonClassName} buttonHref={buttonHref}/></h2>
-        <h2 class="slash">{slash}</h2>
-        <h2 className={pageClassName} data-text={page}><div>{page} ►</div></h2>
-    </nav>
+    <h2>
+      <div className="navbarDiv">
+        <nav>
+          <div><Button button={button} buttonClassName={buttonClassName} buttonHref={buttonHref}/></div>
+          <div class="slash">{slash}</div>
+          <div className={pageClassName} data-text={page}>{page} ►</div>  
+        </nav>
+      </div>
+    </h2>
   )
 }
 
 Navbar.defaultProps = {
-    title: 'KW'
+    title: 'kw',
+    list1: '',
+    list2: ''
 }
 
 export default Navbar

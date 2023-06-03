@@ -571,7 +571,7 @@
   	height: 100%;
 	width: 100%;
 	background-size: cover;
-  	opacity: 0.0175;
+  	opacity: 0.01875;
 	z-index: 7;
 }
 
@@ -636,8 +636,8 @@
 } */
 
 body {
-	margin-top: 55px;
-	margin-bottom: 200px;
+	margin-top: 10vh;
+	margin-bottom: 25vh;
 	margin-left: 10%;
 	margin-right: 10%;
 	font-family: vcr, monospace;
@@ -664,7 +664,7 @@ body {
 }
 
 .spacing {
-	margin-bottom: 100px;
+	margin-bottom: 0;
 }
 
 .personal {

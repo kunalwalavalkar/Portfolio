@@ -25,8 +25,9 @@ const Projects = () => {
         
         <div className="spacing">
             <h2><Button button='RISK CALCULATOR' buttonClassName='clickable pages' buttonHref='https://github.com/kunalwalavalkar' target='_blank'/></h2>
-            <span className="description">Risk calculator inpired by OWASP.</span>
+            <span className="description">Risk calculator inspired by OWASP.</span>
         </div>
+        <br></br>
         <div className="spacing">
             <h2><Button button='SIGNUM' buttonClassName='clickable pages' buttonHref='https://github.com/kunalwalavalkar' target='_blank'/></h2>
             <span className="description">Generate and strength check your passwords.</span>

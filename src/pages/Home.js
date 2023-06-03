@@ -21,7 +21,7 @@ const Home = () => {
         </div> */}
         <Navbar button='' buttonClassName='' buttonHref='' slash='' page='KW' pageClassName='currentPage glitch layers'/>
         <h2>
-            <div class="spacing">
+        
                 <p>
                     <span className="personal">HELLO! I'M </span>
                     <span className="hiddenTxt"><Button button='KUNAL WALAVALKAR' buttonClassName='nonClickable pages'/></span>
@@ -29,17 +29,16 @@ const Home = () => {
                     <span className="personal">, A COMPUTER ENGINEERING STUDENT AND CYBERSECURITY ENTHUSIAST</span>
                     <span className="personal">.</span>
                 </p>
-            </div>
-            <div className="spacing">
-                <p>
+                <br></br>
+                <p> 
                     <span className="personal">THIS WEBSITE IS A MEANS TO SHOWCASE MY </span>
                     <span><Button button='PROJECTS' buttonClassName='clickable pages' buttonHref='/projects'/></span>
                     <span className="personal"> AS WELL AS MY </span>
                     <span><Button button='BLOG' buttonClassName='clickable pages' buttonHref='https://medium.com/me/stories/public' target='_blank'/></span>
                     <span className="personal">.</span>
                 </p>
-            </div>
-            <div>
+                <br></br>
+            
                 <p>
                     <span className="personal">FEEL FREE TO FOLLOW MY </span>
                     <span><Button button='SOCIALS' buttonClassName='clickable pages' buttonHref='/socials'/></span>
@@ -47,7 +46,7 @@ const Home = () => {
                     <span><Button button='EMAIL' buttonClassName='clickable pages' buttonHref='mailto:kunalw2002@gmail.com'/></span>
                     <span className="personal">.</span>
                 </p>
-            </div>
+            
         </h2> 
     </>
   )

@@ -27,10 +27,12 @@ const Socials = () => {
         <h2><Button button='GITHUB' buttonClassName='clickable pages' buttonHref='https://github.com/kunalwalavalkar' target='_blank'/></h2>
         <span className="description">To check out my projects and open source contributions.</span>
     </div>
+    <br></br>
     <div className="spacing">
         <h2><Button button='TRYHACKME' buttonClassName='clickable pages' buttonHref='https://tryhackme.com/p/KunalWalavalkar' target='_blank'/></h2>
         <span className="description">To check out the rooms I've completed.</span>
     </div>
+    <br></br>
     <div className="spacing">
         <h2><Button button='INSTAGRAM' buttonClassName='clickable pages' buttonHref='https://www.instagram.com/kunalxwalavalkar' target='_blank'/></h2>
         <span className="description">To see my posts. [I don't have any.]</span>

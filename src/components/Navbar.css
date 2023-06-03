@@ -1,5 +1,6 @@
-.navbarContainer {
-	
+.navbarDiv {
+	height: 30vh;	
+	padding-bottom: 10vh;
 }
 
 .slash {
@@ -25,11 +26,9 @@
 nav {
 	align-items: center;
 	display: flex;
-	position: relative;
 	width: 100%;
 	text-align: left;
-	margin-bottom: 24vh;
-	top: 0px;
-  }
-  
-
+	margin-bottom: 0rem;
+	position: sticky;
+    top: 12.5vh;
+}
