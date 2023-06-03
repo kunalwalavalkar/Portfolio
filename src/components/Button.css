@@ -1,6 +1,6 @@
 .previousPage {
-	font-size: 2.7rem;
-	/* font-size: 3.5vw; */
+	/* font-size: 2.7rem; */
+	font-size: 3.25vw;
 	align-items: center;
 	display: flex;
 	position: relative;
@@ -10,7 +10,7 @@
 }
 
 .pages {
-	font-size: 4.1rem;
+	font-size: 4.5vw;
 	/* font-size: 4.5vw; */
 	text-decoration: none;
 	width: 100%;
