@@ -1,13 +1,14 @@
+import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Button from '../components/Button';
-import { Helmet } from 'react-helmet';
+
 
 const Home = () => {
+	useEffect(() => {
+		document.title = 'KW | Home';
+	}, []);
 	return (
 		<>
-			<Helmet>
-				<title>KW | Home</title>
-			</Helmet>
 			<div class="sticky">
 				<div className="effect"></div>
 				<div className="effectStatic"></div>

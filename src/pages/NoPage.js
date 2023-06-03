@@ -1,12 +1,12 @@
+import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
-import { Helmet } from 'react-helmet';
 
 const NoPage = () => {
+	useEffect(() => {
+		document.title = 'KW | 404';
+	}, []);
 	return (
 		<>
-			<Helmet>
-				<title>KW | 404</title>
-			</Helmet>
 			<div class="sticky">
 				<div className="effect"></div>
 				<div className="effectStatic"></div>

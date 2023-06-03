@@ -1,13 +1,13 @@
+import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Button from '../components/Button';
-import { Helmet } from 'react-helmet';
 
 const Socials = () => {
+	useEffect(() => {
+		document.title = 'KW | Socials';
+	}, []);
 	return (
 		<>
-			<Helmet>
-				<title>KW | Socials</title>
-			</Helmet>
 			<div class="sticky">
 				<div className="effect"></div>
 				<div className="effectStatic"></div>
