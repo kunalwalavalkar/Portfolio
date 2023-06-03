@@ -10,6 +10,7 @@ const Projects = () => {
         </Helmet>
         <div class="sticky">
             <div className="effect"></div>
+            <div className="effectStatic"></div>
             <div className="scanLine"></div>
             <div className="gradient"></div>
             <div className="noise"></div>
