@@ -1,5 +1,5 @@
 .navbarDiv {
-	height: 30vh;	
+	height: 30vh;
 	padding-bottom: 10vh;
 }
 
@@ -21,7 +21,7 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
-  }
+}
 
 nav {
 	align-items: center;
@@ -30,5 +30,5 @@ nav {
 	text-align: left;
 	margin-bottom: 0rem;
 	position: sticky;
-    top: 12.5vh;
+	top: 12.5vh;
 }
