@@ -1,3 +1,12 @@
+:root {
+	--text-primary: #a0a0a0;
+    --text-secondary: #fff;
+    --font-primary: "VCR OSD Mono",monospace;
+    --font-size-secondary: clamp(16px,1.8vw,34px);
+    --font-size-primary: clamp(24px,4.6vw,64px);
+	--font-size-tertiary: clamp(20px,3vw,48px);
+}
+
 @font-face {
 	font-family: 'VCR';
 	src: url('./assets/fonts/VCROSDMono.woff') format('woff');
@@ -682,7 +691,7 @@ body {
 .personal {
 	line-height: 1.15;
 	/* font-size: 4.1rem; */
-	font-size: 4.5vw;
+	font-size: var(--font-size-primary);
 	text-decoration: none;
 	width: 100%;
 	color: #a0a0a0;
@@ -690,7 +699,7 @@ body {
 
 .description {
 	line-height: 1.05;
-	font-size: 2vw;
+	font-size: var(--font-size-secondary);
 	width: 100%;
 	color: #a0a0a0;
 }
