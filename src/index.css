@@ -1,3 +1,7 @@
+html { 
+	scroll-behavior: smooth; 
+}
+
 :root {
 	--text-primary: #a0a0a0;
     --text-secondary: #fff;
@@ -5,6 +9,19 @@
     --font-size-secondary: clamp(16px,1.8vw,34px);
     --font-size-primary: clamp(24px,4.6vw,64px);
 	--font-size-tertiary: clamp(20px,3vw,48px);
+}
+
+body {
+	margin-top: 10vh;
+	margin-bottom: 25vh;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: vcr, monospace;
+	animation: textShadow 1.6s infinite;
+	text-shadow: 0.175vw 0.05vw 0.5px rgba(0, 30, 255, 0.325), -0.175vw -0.05vw 0.5px rgba(255, 0, 80, 0.225);
+	/* text-shadow: 4.5px 0 1px rgba(0, 0, 0, 0.5), 5px 0 0.5px rgba(255, 255, 255, 0.25); */
+	/* background: url('./assets/effect-artifacts.gif'); */
+	cursor: url('./assets/images/cursor-default.png') 0 0, auto;
 }
 
 @font-face {
