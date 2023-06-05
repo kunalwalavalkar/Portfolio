@@ -39,7 +39,7 @@ const Socials = () => {
 						target="_blank"
 					/>
 				</h2>
-				<small className="description">To check out my projects and open source contributions.</small>
+				<span className="description">To check out my projects and open source contributions.</span>
 			</p>
 
 			<p className='spacing'>
@@ -51,7 +51,7 @@ const Socials = () => {
 						target="_blank"
 					/>
 				</h2>
-				<small className="description">To check out the rooms I've completed.</small>
+				<span className="description">To check out the rooms I've completed.</span>
 			</p>
 			
 			<p className='spacing'>
@@ -63,7 +63,7 @@ const Socials = () => {
 						target="_blank"
 					/>
 				</h2>
-				<small className="description">To see my posts. [I don't have any.]</small>
+				<span className="description">To see my posts. [I don't have any.]</span>
 			</p>
 		</>
 	);

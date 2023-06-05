@@ -6,8 +6,8 @@ html {
 	--text-primary: #a0a0a0;
   --text-secondary: #fff;
   --font-primary: "VCR OSD Mono",monospace;
-  --font-size-secondary: clamp(16px,1.8vw,34px);
   --font-size-primary: clamp(24px,4.6vw,64px);
+	--font-size-secondary: clamp(14px,1.8vw,30px);
 	--font-size-tertiary: clamp(20px,3vw,45px);
 }
 
