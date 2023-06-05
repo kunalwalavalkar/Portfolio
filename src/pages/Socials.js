@@ -30,41 +30,43 @@ const Socials = () => {
 				pageClassName="currentPage"
 			/>
 
-			<p className='spacing'>
-				<h2>
-					<Button
-						button="GITHUB"
-						buttonClassName="clickable pages"
-						buttonHref="https://github.com/kunalwalavalkar"
-						target="_blank"
-					/>
-				</h2>
-				<span className="description">To check out my projects and open source contributions.</span>
-			</p>
+			<ul>
+				<li>
+					<h2>
+						<Button
+							button="GITHUB"
+							buttonClassName="clickable pages"
+							buttonHref="https://github.com/kunalwalavalkar"
+							target="_blank"
+						/>
+					</h2>
+					<span className="description">To check out my projects and open source contributions.</span>
+				</li>
 
-			<p className='spacing'>
-				<h2>
-					<Button
-						button="TRYHACKME"
-						buttonClassName="clickable pages"
-						buttonHref="https://tryhackme.com/p/KunalWalavalkar"
-						target="_blank"
-					/>
-				</h2>
-				<span className="description">To check out the rooms I've completed.</span>
-			</p>
-			
-			<p className='spacing'>
-				<h2>
-					<Button
-						button="INSTAGRAM"
-						buttonClassName="clickable pages"
-						buttonHref="https://www.instagram.com/kunalxwalavalkar"
-						target="_blank"
-					/>
-				</h2>
-				<span className="description">To see my posts. [I don't have any.]</span>
-			</p>
+				<li>
+					<h2>
+						<Button
+							button="TRYHACKME"
+							buttonClassName="clickable pages"
+							buttonHref="https://tryhackme.com/p/KunalWalavalkar"
+							target="_blank"
+						/>
+					</h2>
+					<span className="description">To check out the rooms I've completed.</span>
+				</li>
+				
+				<li >
+					<h2>
+						<Button
+							button="INSTAGRAM"
+							buttonClassName="clickable pages"
+							buttonHref="https://www.instagram.com/kunalxwalavalkar"
+							target="_blank"
+						/>
+					</h2>
+					<span className="description">To see my posts. [I don't have any.]</span>
+				</li>
+			</ul>
 		</>
 	);
 };

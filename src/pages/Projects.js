@@ -29,30 +29,32 @@ const Projects = () => {
 				page="PROJECTS"
 				pageClassName="currentPage"
 			/>
+			
+			<ul>
+				<li>
+					<h2>
+						<Button
+							button="RISK CALCULATOR"
+							buttonClassName="clickable pages"
+							buttonHref="https://github.com/kunalwalavalkar"
+							target="_blank"
+						/>
+					</h2>
+					<span className="description">Risk calculator inspired by OWASP.</span>
+				</li>
 
-			<p className='spacing'>
-				<h2>
-					<Button
-						button="RISK CALCULATOR"
-						buttonClassName="clickable pages"
-						buttonHref="https://github.com/kunalwalavalkar"
-						target="_blank"
-					/>
-				</h2>
-				<span className="description">Risk calculator inspired by OWASP.</span>
-			</p>
-
-			<p className="spacing">
-				<h2>
-					<Button
-						button="SIGNUM"
-						buttonClassName="clickable pages"
-						buttonHref="https://github.com/kunalwalavalkar"
-						target="_blank"
-					/>
-				</h2>
-				<span className="description">Generate and strength check your passwords.</span>
-			</p>
+				<li>
+					<h2>
+						<Button
+							button="SIGNUM"
+							buttonClassName="clickable pages"
+							buttonHref="https://github.com/kunalwalavalkar"
+							target="_blank"
+						/>
+					</h2>
+					<span className="description">Generate and strength check your passwords.</span>
+				</li>
+			</ul>
 		</>
 	);
 };
