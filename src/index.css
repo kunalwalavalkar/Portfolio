@@ -4,11 +4,11 @@ html {
 
 :root {
 	--text-primary: #a0a0a0;
-    --text-secondary: #fff;
-    --font-primary: "VCR OSD Mono",monospace;
-    --font-size-secondary: clamp(16px,1.8vw,34px);
-    --font-size-primary: clamp(24px,4.6vw,64px);
-	--font-size-tertiary: clamp(20px,3vw,48px);
+  --text-secondary: #fff;
+  --font-primary: "VCR OSD Mono",monospace;
+  --font-size-secondary: clamp(16px,1.8vw,34px);
+  --font-size-primary: clamp(24px,4.6vw,64px);
+	--font-size-tertiary: clamp(15px,2.75vw,45px);
 }
 
 body {
@@ -702,7 +702,7 @@ body {
 }
 
 .spacing {
-	margin-bottom: 12.5vh;
+	margin-bottom: 6vw;
 }
 
 .personal {
