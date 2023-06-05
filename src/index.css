@@ -702,7 +702,7 @@ body {
 }
 
 .spacing {
-	margin-bottom: 6vw;
+	margin-bottom: 5rem;
 }
 
 .personal {
@@ -715,7 +715,6 @@ body {
 }
 
 .description {
-	line-height: 1.05;
 	font-size: var(--font-size-secondary);
 	width: 100%;
 	color: #a0a0a0;
