@@ -29,7 +29,7 @@ const Home = () => {
 				pageClassName="currentPage glitch layers"
 			/>
 			<h2>
-				<p>
+				<p className='spacing'>
 					<span className="personal">HELLO! I'M </span>
 					<span className="hiddenTxt">
 						<Button button="KUNAL WALAVALKAR" buttonClassName="nonClickable pages" />
@@ -40,10 +40,8 @@ const Home = () => {
 					<span className="personal">, A COMPUTER ENGINEERING STUDENT AND CYBERSECURITY ENTHUSIAST</span>
 					<span className="personal">.</span>
 				</p>
-
-				<br></br>
 				
-				<p>
+				<p className='spacing'>
 					<span className="personal">THIS WEBSITE IS A MEANS TO SHOWCASE MY </span>
 					<span>
 						<Button button="PROJECTS" buttonClassName="clickable pages" buttonHref="/projects" />
@@ -60,9 +58,7 @@ const Home = () => {
 					<span className="personal">.</span>
 				</p>
 
-				<br></br>
-
-				<p>
+				<p className='spacing'>
 					<span className="personal">FEEL FREE TO FOLLOW MY </span>
 					<span>
 						<Button button="SOCIALS" buttonClassName="clickable pages" buttonHref="/socials" />

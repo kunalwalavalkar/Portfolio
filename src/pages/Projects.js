@@ -30,7 +30,7 @@ const Projects = () => {
 				pageClassName="currentPage"
 			/>
 
-			<p>
+			<p className='spacing'>
 				<h2>
 					<Button
 						button="RISK CALCULATOR"
@@ -42,12 +42,7 @@ const Projects = () => {
 				<span className="description">Risk calculator inspired by OWASP.</span>
 			</p>
 
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			
-			<div className="spacing">
+			<p className="spacing">
 				<h2>
 					<Button
 						button="SIGNUM"
@@ -57,7 +52,7 @@ const Projects = () => {
 					/>
 				</h2>
 				<span className="description">Generate and strength check your passwords.</span>
-			</div>
+			</p>
 		</>
 	);
 };

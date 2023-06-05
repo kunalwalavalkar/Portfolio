@@ -30,7 +30,7 @@ const Socials = () => {
 				pageClassName="currentPage"
 			/>
 
-			<p>
+			<p className='spacing'>
 				<h2>
 					<Button
 						button="GITHUB"
@@ -42,12 +42,7 @@ const Socials = () => {
 				<span className="description">To check out my projects and open source contributions.</span>
 			</p>
 
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-
-			<p>
+			<p className='spacing'>
 				<h2>
 					<Button
 						button="TRYHACKME"
@@ -58,13 +53,8 @@ const Socials = () => {
 				</h2>
 				<span className="description">To check out the rooms I've completed.</span>
 			</p>
-
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
 			
-			<p>
+			<p className='spacing'>
 				<h2>
 					<Button
 						button="INSTAGRAM"
