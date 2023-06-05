@@ -13,7 +13,7 @@ html {
 
 body {
 	margin-top: 10vh;
-	margin-bottom: 25vh;
+	margin-bottom: 15vh;
 	margin-left: 10%;
 	margin-right: 10%;
 	font-family: vcr, monospace;
@@ -702,7 +702,7 @@ body {
 }
 
 .spacing {
-	margin-bottom: 5rem;
+	margin-bottom: 90px;
 }
 
 .personal {
