@@ -29,7 +29,6 @@ const Projects = () => {
 				page="PROJECTS"
 				pageClassName="currentPage"
 			/>
-			
 			<ul>
 				<li>
 					<h2>
