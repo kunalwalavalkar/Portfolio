@@ -32,7 +32,7 @@
 .hiddenTxt:hover ~ .hiddenImg {
 	display: block;
 	position: absolute;
-	z-index: 0;
+	z-index: 50;
 	margin-left: 30vw;
 }
 
@@ -46,5 +46,5 @@
 .clickable:hover {
 	/* background-color: #777777; */
 	background-image: url('../assets/gifs/crt2.gif');
-	cursor: url('../assets/images/cursor-pointer.png') 0 0, auto;
+	cursor: url('../assets/images/cursor-pointer.png') 10 0, auto;
 }

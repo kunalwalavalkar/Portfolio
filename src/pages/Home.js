@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Button from '../components/Button';
-
+import profilepic from '../assets/images/profilepic.png';
 
 const Home = () => {
 	useEffect(() => {
@@ -35,7 +35,7 @@ const Home = () => {
 						<Button button="KUNAL WALAVALKAR" buttonClassName="nonClickable pages" />
 					</span>
 					<span className="hiddenImg">
-						<img src="./profilepic.jpg" width="250" />
+						<img src="profilepic" width="250" />
 					</span>
 					<span className="personal">, A COMPUTER ENGINEERING STUDENT AND CYBERSECURITY ENTHUSIAST</span>
 					<span className="personal">.</span>
