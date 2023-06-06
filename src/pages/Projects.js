@@ -35,7 +35,7 @@ const Projects = () => {
 						<Button
 							button="RISK CALCULATOR"
 							buttonClassName="clickable pages"
-							buttonHref="https://github.com/kunalwalavalkar"
+							buttonHref="https://kunalwalavalkar.github.io/Risk-Calculator/"
 							target="_blank"
 						/>
 					</h2>
@@ -47,7 +47,7 @@ const Projects = () => {
 						<Button
 							button="SIGNUM"
 							buttonClassName="clickable pages"
-							buttonHref="https://github.com/kunalwalavalkar"
+							buttonHref="https://kunalwalavalkar.github.io/Signum/"
 							target="_blank"
 						/>
 					</h2>
