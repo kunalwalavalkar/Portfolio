@@ -618,7 +618,7 @@ h2 {
 	height: 100%;
 	width: 100%;
 	background-size: cover;
-	opacity: 0.0225;
+	opacity: 0.02;
 	z-index: 7;
 }
 
@@ -627,7 +627,7 @@ h2 {
 	height: 100%;
 	width: 100%;
 	z-index: 5;
-	background: radial-gradient(circle, rgb(40, 40, 40) 0%, rgb(0, 0, 0) 100%);
+	background: radial-gradient(circle, rgb(40, 40, 40) 0%, rgb(5, 5, 5) 100%);
 }
 
 .backgroundEffect::before {
