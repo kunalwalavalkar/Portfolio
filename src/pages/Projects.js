@@ -53,6 +53,18 @@ const Projects = () => {
 					</h2>
 					<span className="description">Generate and strength check your passwords.</span>
 				</li>
+
+				<li>
+					<h2>
+						<Button
+							button="HEXDUMPER"
+							buttonClassName="clickable pages"
+							buttonHref="https://github.com/kunalwalavalkar/HexDumper/"
+							target="_blank"
+						/>
+					</h2>
+					<span className="description">Command line utility that displays the contents of binary files in hexadecimal and ascii format.</span>
+				</li>
 			</ul>
 		</>
 	);
