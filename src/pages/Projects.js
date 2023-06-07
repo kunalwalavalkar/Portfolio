@@ -63,7 +63,7 @@ const Projects = () => {
 							target="_blank"
 						/>
 					</h2>
-					<span className="description">Command line utility that displays the contents of binary files in hexadecimal and ascii format.</span>
+					<span className="description">Display the contents of binary files in hexadecimal and ascii format.</span>
 				</li>
 			</ul>
 		</>
