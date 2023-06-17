@@ -63,6 +63,7 @@ const Projects = () => {
 							target="_blank"
 						/>
 					</h2>
+					<span className="description">Command-Line utility to dump file in binary and hexadecimal.</span>
 				</li>
 			</ul>
 		</>
