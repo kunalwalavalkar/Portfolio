@@ -16,7 +16,7 @@ const Navbar = ({ button, buttonClassName, buttonHref, slash, page, pageClassNam
 						{page} ►
 					</div>
 				</nav>
-			</div>
+			</div>	
 		</h2>
 	);
 };

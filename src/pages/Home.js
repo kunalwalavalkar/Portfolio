@@ -28,6 +28,7 @@ const Home = () => {
 				page="KW"
 				pageClassName="currentPage glitch layers"
 			/>
+			
 			<h2>
 				<p className='spacing'>
 					<span className="personal">HELLO! I'M </span>

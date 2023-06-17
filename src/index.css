@@ -608,7 +608,7 @@ h2 {
 	height: 100%;
 	width: 100%;
 	background-size: cover;
-	opacity: 0.1;
+	opacity: 0.125;
 	z-index: 8;
 }
 
@@ -618,7 +618,7 @@ h2 {
 	height: 100%;
 	width: 100%;
 	background-size: cover;
-	opacity: 0.02;
+	opacity: 0.0225;
 	z-index: 7;
 }
 
