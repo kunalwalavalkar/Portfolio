@@ -63,11 +63,6 @@ const Projects = () => {
 							target="_blank"
 						/>
 					</h2>
-<<<<<<< HEAD
-					<span className="description">Displays the contents of binary files in hexadecimal and ascii format.</span>
-=======
-					<span className="description">Display the contents of binary files in hexadecimal and ascii format.</span>
->>>>>>> d163d5b3f5aee6f711079ef51633bd1188c42b64
 				</li>
 			</ul>
 		</>
