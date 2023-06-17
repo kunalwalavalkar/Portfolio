@@ -699,7 +699,7 @@ h2 {
 }
 
 .spacing {
-	margin-bottom: 10vh;
+	margin-bottom: 7.5vh;
 }
 
 .personal {
@@ -714,7 +714,7 @@ h2 {
 ul {
 	display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 10vh;
+  grid-gap: 7.5vh;
 	padding: 0;
 }
 
