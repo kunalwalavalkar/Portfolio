@@ -52,7 +52,7 @@ const Home = () => {
 						<Button
 							button="BLOG"
 							buttonClassName="clickable pages"
-							buttonHref="https://medium.com/me/stories/public"
+							buttonHref="https://kunalwalavalkar.gitbook.io/writeups/"
 							target="_blank"
 						/>
 					</span>
