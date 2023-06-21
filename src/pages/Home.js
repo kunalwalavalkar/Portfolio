@@ -30,7 +30,7 @@ const Home = () => {
 			/>
 			
 			<h2>
-				<p className='spacing'>
+				<p>
 					<span className="personal">HELLO! I'M </span>
 					<span className="hiddenTxt">
 						<Button button="KUNAL WALAVALKAR" buttonClassName="nonClickable pages" />
@@ -42,7 +42,10 @@ const Home = () => {
 					<span className="personal">.</span>
 				</p>
 				
-				<p className='spacing'>
+				<br/>
+				<br/>
+
+				<p>
 					<span className="personal">THIS WEBSITE IS A MEANS TO SHOWCASE MY </span>
 					<span>
 						<Button button="PROJECTS" buttonClassName="clickable pages" buttonHref="/projects" />
@@ -59,7 +62,10 @@ const Home = () => {
 					<span className="personal">.</span>
 				</p>
 
-				<p className='spacing'>
+				<br/>
+				<br/>
+
+				<p>
 					<span className="personal">FEEL FREE TO FOLLOW MY </span>
 					<span>
 						<Button button="SOCIALS" buttonClassName="clickable pages" buttonHref="/socials" />
