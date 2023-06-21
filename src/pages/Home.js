@@ -41,8 +41,7 @@ const Home = () => {
 					<span className="personal">, A COMPUTER ENGINEERING STUDENT AND CYBERSECURITY ENTHUSIAST</span>
 					<span className="personal">.</span>
 				</p>
-				
-				<br/>
+
 				<br/>
 
 				<p>
@@ -62,7 +61,6 @@ const Home = () => {
 					<span className="personal">.</span>
 				</p>
 
-				<br/>
 				<br/>
 
 				<p>
