@@ -50,7 +50,7 @@ const Home = () => {
 					<span className="personal"> AS WELL AS MY </span>
 					<span>
 						<Button
-							button="BLOG"
+							button="WRITE-UPS"
 							buttonClassName="clickable pages"
 							buttonHref="https://kunalwalavalkar.gitbook.io/writeups/"
 							target="_blank"
