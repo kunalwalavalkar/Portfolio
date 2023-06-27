@@ -22,7 +22,7 @@ const Projects = () => {
             <h2 className="current">PROJECTS ►</h2>
         </div> */}
 			<Navbar
-				button=".."
+				button="KW"
 				buttonClassName="previousPage clickable glitch layers"
 				buttonHref="/"
 				slash="&nbsp;/&nbsp;"
